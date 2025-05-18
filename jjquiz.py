@@ -19,7 +19,7 @@ if st.button("제출하기"):
     else:
         st.error("1번 오답")
 
-    if sa_answer.strip().lower() == "ATEEZ":
+    if sa_answer.strip().lower() == "ateez":
         score += 1
         st.success("2번 정답")
     else:
